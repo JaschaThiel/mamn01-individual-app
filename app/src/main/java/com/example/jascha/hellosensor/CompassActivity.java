@@ -85,7 +85,7 @@ public class CompassActivity extends AppCompatActivity implements SensorEventLis
             where = "NE";
 
 
-        txt_compass.setText(mAzimuth + "° " + where);
+        txt_compass.setText("Heading: " + mAzimuth + "° " + where);
 
     }
 
